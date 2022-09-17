@@ -1,0 +1,164 @@
+body {
+    background-color: aquamarine;
+    background-image: url(buatbg.jpg);
+    background-repeat: repeat;
+}
+
+.header {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.try {
+    width: 90%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+}
+
+.nama {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13 px;
+}
+.nama2 {
+    color: blue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+}
+.navigation>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+.con1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.g1 {
+    width: 300px;
+    float: left;
+}
+
+.isi {
+    background-color: linear-gradient;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.clear {
+    clear: left;
+}
+
+.con2 {
+   margin: 4% 10% 4% 10%;
+    float: left;
+    
+}
+
+.entah {
+    width: 100px;
+    float: right;
+
+}
+
+.kotak {
+    border: solid 1px black;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+    display: flex;
+    float: right;
+    padding: 3px;
+}
+
+.clear2 {
+    clear: right;
+}
+
+.g2 {
+    width: 150px;
+    float:left
+}
+
+.con3 {
+   padding-top: 12%;
+   margin-left: 10%;
+   margin-right: 10%;
+    margin-bottom: 4%;
+}
+
+.form {
+    background-color: rgb(255, 221, 163);
+    margin-left: 10%;
+    margin-right: 2%;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px; 
+   justify-content: space-between;
+   margin-top: 30px;
+   padding: 15px;
+   float: left;
+}
+
+.title {
+    position: relative;
+}
+
+.tambahan {
+    background-color: rgb(255, 221, 163);
+    margin-left: 2%;
+    margin-right: 10%;
+   display: flex;
+   flex-direction:row;
+   border-radius: 10px; 
+   justify-content: space-between;
+   margin-top: 30px;
+   padding: 1%;
+  
+  
+}
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    height: 20px;
+   
+     margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
